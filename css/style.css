@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    background-color: #ffd6da;
+}
+
+/* cmc nav */
+
+.nav {
+    color: #663E2C;
+    
+}
+
+.barra-pesquisa, .nav-item button {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    margin: 10px 0px 10px;
+
+}
+
+.nav-item button:hover {
+    background-color: #BC93A9;
+    color: #fff;
+}
+
+.logo {
+    height: 80px;
+    width: 60px;
+    margin-left: 15px;
+}
+
+.img-nav {
+    height: 30px;
+    width: 30px;
+}
+
+/* fim nav */
+
+/* carouser */
+.carousel-item img {
+    width: 1200px;
+    margin-top: 20px
+    
+}
+/* fim carousel */
+
+/* titulo */
+.mais-vendidos {
+    font-size: 30px;
+    margin-top: 40px;
+    font-family: Libre Baskerville;
+    color: #663E2C; 
+}
+/* fim titulo */
+
+/* primeiras roupas */
+.prim-roups {
+    width: 20%;
+    font-family: Libre Baskerville;
+    color: #663E2C;
+}
+
+.img-mais img{
+    height: 300px;
+    width: 220px;
+    border-radius: 20px;
+}
+
+.preco-prim {
+    color: orange;
+    margin-top: -15px;
+}
+
+.btn-comp {
+    color: #fff;
+    background-color: #663E2C;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+}
+
+.btn-comp:hover {
+    background-color: #745445;
+}
+/* fim primeiras roupas */
+
