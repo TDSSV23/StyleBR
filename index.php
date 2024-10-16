@@ -1,93 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Style BR</title>
-
-  <!-- JS -->
-  <script src="./js/script.js"></script>
-  <script src="./js/bootstrap.min.js"></script>
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="./css/bootstrap.min.css">
-</head>
-
-<body class="body">
-
-  <!-- NavBar -->
-
-  <!-- Peimeira Linha Navabr -->
-  <div class="nav d-flex justify-content-between container-fluid">
-    <a class="navbar-brand align-self-center" href="#">
-      <img class="logo" src="./img/logo.png" alt="Bootstrap" width="30" height="24">
-    </a>
-
-    <!-- meio do header -->
-    <div class="d-flex align-items-end flex-column">
-      <div class="container-fluid">
-        <!-- barra de pesquisa -->
-        <ul class="nav justify-content-center">
-
-          <li class="nav-item">
-            <form class="d-flex" role="search">
-              <input class="form-control me-2 barra-pesquisa" type="search" placeholder="Pesquisar" aria-label="Search">
-              <button class="btn btn-outline-success btn-pesquisa" type="submit">Pesquisar</button>
-            </form>
-          </li>
-        </ul>
-        <!-- Fim da Barra de Pesquisa -->
-      </div>
-
-      <div class="container-fluid">
-        <!-- cmc categorias -->
-        <div class="d-flex justify-content-center">
-          <ul class="navbar-nav  flex-row ">
-            <li class="nav-item me-3">
-              <a class="nav-link" href="#">Kits</a>
-            </li>
-            <li class="nav-item me-3">
-              <a class="nav-link" href="#">Feminino</a>
-            </li>
-            <li class="nav-item me-3">
-              <a class="nav-link" href="#">Masculino</a>
-            </li>
-            <li class="nav-item me-3">
-              <a class="nav-link" href="#">Infantil</a>
-            </li>
-            <li class="nav-item me-3">
-              <a class="nav-link" href="#">Plus Size</a>
-            </li>
-            <li class="nav-item me-3">
-              <a class="nav-link" href="#">Sapatos</a>
-            </li>
-            <li class="nav-item me-3">
-              <a class="nav-link" href="#">Lingerie</a>
-            </li>
-            <li class="nav-item me-3">
-              <a class="nav-link" href="#">Esportivo</a>
-            </li>
-            </li>
-          </ul>
-        </div>
-        <!-- fim categorias -->
-      </div>
-    </div>
-    <!-- fim do meio do header -->
-
-    <ul class="navbar-nav flex-row me-2 p-2 align-self-center">
-      <li class="nav-item me-3">
-        <a href="#"><img src="./img/carrinho.png" class="img-nav" alt="carrinho"></a>
-      </li>
-      <li class="nav-item me-3">
-        <a href="#"><img src="./img/profile.png" class="img-nav" alt="perfil"></a>
-      </li>
-
-    </ul>
-  </div>
-  <!-- fim header -->
+<?php include './views/includes/header.php'; ?>
 
   <!-- cmc Carousel -->
   <div class="container-fluid d-flex justify-content-center">
@@ -107,15 +18,13 @@
   </div>
   <!-- fim carousel -->
 
-  <!-- Titulo Mais Vendidos -->
+
+<!--  Mais Vendidos -->
+  <!-- Titulo -->
   <div class="container-fluid d-flex justify-content-center">
     <p class="mais-vendidos">OS MAIS VENDIDOS</p>
   </div>
-  <!-- Fim titulo mais vendidos -->
-
-
-
-
+  <!-- Fim titulo -->
 
 
 
@@ -299,22 +208,8 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
+<!--  Mais Vendidos FIM -->
 
-<!-- footer -->
-<div class="container ">
-    <footer class="py-3 my-4 ">
-      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
-      </ul>
-      <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
-    </footer>
-  </div>
-<!-- fim footer -->
 
-</body>
-
-</html>
+<!-- Footer -->
+  <?php include './views/includes/footer.php'; ?>
