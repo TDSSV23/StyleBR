@@ -13,6 +13,8 @@
   <!-- CSS -->
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <!-- link login.css -->
+  <link rel="stylesheet" href="./css/login.css">
 </head>
 
 <body class="body">
@@ -22,11 +24,11 @@
   <!-- Peimeira Linha Navabr -->
   <div class="nav d-flex justify-content-between container-fluid">
     <a class="navbar-brand align-self-center" href="#">
-      <img class="logo" src="./img/logo.png" alt="Bootstrap" width="30" height="24">
+      <img class="logo" src="img\logo.png" alt="Bootstrap" width="30" height="24">
     </a>
 
     <!-- meio do header -->
-    <div class="d-flex align-items-end flex-column">
+    <div class="d-flex align-items-end flex-column meio-nav">
       <div class="container-fluid">
         <!-- barra de pesquisa -->
         <ul class="nav justify-content-center">
@@ -52,12 +54,6 @@
               <a class="nav-link" href="#">Feminino</a>
             </li>
             <li class="nav-item me-3">
-              <a class="nav-link" href="#">Masculino</a>
-            </li>
-            <li class="nav-item me-3">
-              <a class="nav-link" href="#">Infantil</a>
-            </li>
-            <li class="nav-item me-3">
               <a class="nav-link" href="#">Plus Size</a>
             </li>
             <li class="nav-item me-3">
@@ -65,10 +61,6 @@
             </li>
             <li class="nav-item me-3">
               <a class="nav-link" href="#">Lingerie</a>
-            </li>
-            <li class="nav-item me-3">
-              <a class="nav-link" href="#">Esportivo</a>
-            </li>
             </li>
           </ul>
         </div>
@@ -82,7 +74,7 @@
         <a href="#"><img src="./img/carrinho.png" class="img-nav" alt="carrinho"></a>
       </li>
       <li class="nav-item me-3">
-        <a href="#"><img src="./img/profile.png" class="img-nav" alt="perfil"></a>
+        <a href="./views/login.php"><img src="./img/profile.png" class="img-nav" alt="perfil"></a>
       </li>
 
     </ul>
