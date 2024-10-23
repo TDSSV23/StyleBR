@@ -74,7 +74,7 @@
         <a href="#"><img src="./img/carrinho.png" class="img-nav" alt="carrinho"></a>
       </li>
       <li class="nav-item me-3">
-        <a href="./views/login.php"><img src="./img/profile.png" class="img-nav" alt="perfil"></a>
+        <a href="./views/clienteForm.php"><img src="./img/profile.png" class="img-nav" alt="perfil"></a>
       </li>
 
     </ul>

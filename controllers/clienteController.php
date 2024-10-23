@@ -1,40 +1,41 @@
 <?php
 
-require_once './models/Pessoa.php';
+require_once './models/Cliente
+.php';
 
-class PessoaController {
+class ClienteController {
     protected $model;
 
     function __construct(){
-       $this->model = new Pessoa(); 
+       $this->model = new Cliente(); 
     }
 
     function selectAll() {
         $result = $this->model->selectAll();
-        require('./views/pessoaList.php');
+        require('./views/clienteList.php');
     }
 
     function novaPessoa() {
-        require('./views/pessoaForm.php');
+        require('./views/clienteForm.php');
       }
 
     function editar($id) {
         $result = $this->model->selectById($id);
-        require('./views/pessoaForm.php');
+        require('./views/clienteForm.php');
     }
 
     function insert($data) {
         $result = $this->model->insert($data);
-        header('Location: ./pessoa.php');
+        header('Location: ./cliente.php');
     }
 
     function delete($id) {
         $result = $this->model->delete($id);
-        header('Location: ./pessoa.php');
+        header('Location: ./cliente.php');
     }
 
     function update($data) {
         $result = $this->model->update($data);
-        header('Location: ./pessoa.php');
+        header('Location: ./cliente.php');
     }
 }
